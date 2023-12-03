@@ -33,28 +33,29 @@ This project is a simple Tkinter GUI application for text-to-speech conversion. 
 
 Move the slider left or right to decrease or increase the speech rate, respectively. The initial rate is set to 150, and you can modify it according to your preference.
 
-
-#Audio Book from PDF
-Introduction
+# Audio Book from PDF
+## Introduction
 This project converts a PDF file into an audio book using Python. It utilizes the pyttsx3 library for text-to-speech conversion and the PyPDF2 library for reading PDF files.
 
-Requirements
+## Requirements
 Python 3.x
 pyttsx3 library
 PyPDF2 library
-Install the required libraries using the following commands:
+
+## Install the required libraries using the following commands: 
   -pip install pyttsx3
   -pip install PyPDF2
-Usage
-Open the audio_book_from_pdf.py file.
-Replace the file path in the book = open('your_pdf_file.pdf', 'rb') line with the path to your PDF file.
-Run the script using the following command:
-  -python audio_book_from_pdf.py
-  
-#Notes
-Ensure that your PDF file is accessible and readable.
-Adjust the page range in the for loop (range(start_page, end_page)) to specify which pages to include in the audio book.
-Feel free to customize the script according to your needs.
 
-Acknowledgments
+## Usage
+  1. Open the audio_book_from_pdf.py file.
+  2. Replace the file path in the book = open('your_pdf_file.pdf', 'rb') line with the path to your PDF file.
+  3. Run the script using the following command:
+      - python audio_book_from_pdf.py
+
+## Notes
+  1. Ensure that your PDF file is accessible and readable.
+  2. Adjust the page range in the for loop (range(start_page, end_page)) to specify which pages to include in the audio book.
+  3. Feel free to customize the script according to your needs.
+
+## Acknowledgments
 This project was inspired by the need for converting PDF documents into audio books for accessibility and convenience.
